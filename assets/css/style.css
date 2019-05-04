@@ -153,3 +153,69 @@ body {
   color: #fff;
   text-align: center;
 }
+
+/* Appraisal Page */
+.main, .grey-color {
+  background-color: #425059;
+}
+
+.black-color {
+  background-color: #090b0d;
+}
+
+.appraisal-content {
+  text-align: center;
+  color: #9fb3bf;
+}
+
+.appraisal-content h1 {
+  font-size: 3em;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.appraisal-content p {
+  margin-top: 1rem;
+  margin-bottom: 76px;
+}
+
+.grid-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.card {
+  background: #9fb3bf;
+  border-radius: 2px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card h1 {
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  text-align: center;
+}
+
+.font {
+  font-size: 60px;
+  color: #fff;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  background: #090b0d;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
