@@ -219,3 +219,54 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/* Project Page Style */
+.project-card {
+  background: #9fb3bf;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), url("/assets/imgs/dp.jpg") center center no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 2.5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  /* height: 200px; */
+}
+.grid-box-second {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 0.5rem;
+  grid-template-areas:
+  "one two three four"
+  "one five five four"
+  "one six six four";
+}
+
+.one {
+ grid-area: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+
+.three {
+  grid-area: three;
+}
+
+.four {
+  grid-area: four;
+}
+
+.five {
+  grid-area: five;
+}
+
+.six {
+  grid-area: six;
+}
