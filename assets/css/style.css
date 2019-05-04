@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #090b0d;
+}
+
 .navbar {
   display: flex;
   justify-content: flex-end;
@@ -91,4 +95,61 @@
 
 .submenu:hover a svg {
   transform: rotate(180deg);
+}
+
+.container {
+  padding: 5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 100px;
+}
+
+.profile-image {
+  background: url("/assets/imgs/dp.jpg") center center no-repeat;
+  background-size: cover;
+  border: 6px solid #9fb3bf;
+  height: 500px;
+  width: 350px;
+  border-radius: 5px;
+  position: relative;
+} 
+
+.profile-image::before {
+  content: "";
+  position: absolute;
+  top: -1.5rem;
+  left: -1.5rem;
+  border: 6px solid #425059;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  border-radius: 5px;
+}
+
+.title {
+  color: #9fb3bf;
+  font-weight: 500;
+  font-size: 3rem;
+  margin-bottom: 70px;
+}
+
+.bio > p {
+  color: #425059;
+  margin-bottom: 30px;
+}
+
+.first-letter {
+  font-size: 35px;
+}
+
+.sub-title {
+  color: #9fb3bf;
+}
+
+.footer {
+  color: #fff;
+  text-align: center;
 }
